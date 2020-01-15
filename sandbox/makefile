@@ -2,8 +2,8 @@ all: main
 
 main:
 	# "... -o executable_name"
-	go build -o cal
+	go build
 
 run:
 	# run "./cal ARGS"
-	./cal
+	./sandbox
