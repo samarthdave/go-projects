@@ -7,3 +7,5 @@
 !*.*
 # reinclude
 !makefile
+
+node_modules/
