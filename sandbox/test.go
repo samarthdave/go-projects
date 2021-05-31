@@ -4,6 +4,10 @@ import (
 	"fmt"
 )
 
+func mySum(x int, y int) int {
+	return x + y
+}
+
 func main() {
 	// integer addition
 	var x int = 5
@@ -63,5 +67,9 @@ func main() {
 	for key, value := range vertices {
 		fmt.Println("key", key, "value", value)
 	}
+
+	fmt.Println("======================")
+
+	fmt.println(mySum(4, 5))
 
 }
